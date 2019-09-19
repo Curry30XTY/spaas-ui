@@ -37,6 +37,7 @@ import BreadcrumbItem from '../packages/breadcrumb-item/index.js';
 import Form from '../packages/form/index.js';
 import FormItem from '../packages/form-item/index.js';
 import Tabs from '../packages/tabs/index.js';
+import TabsDotted from '../packages/tabs-dotted/index.js';
 import TabPane from '../packages/tab-pane/index.js';
 import Tag from '../packages/tag/index.js';
 import Tree from '../packages/tree/index.js';
@@ -121,6 +122,7 @@ const components = [
   Form,
   FormItem,
   Tabs,
+  TabsDotted,
   TabPane,
   Tag,
   Tree,
@@ -239,6 +241,7 @@ export default {
   Form,
   FormItem,
   Tabs,
+  TabsDotted,
   TabPane,
   Tag,
   Tree,
