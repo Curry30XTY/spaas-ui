@@ -79,7 +79,9 @@ import { ElInfiniteScroll } from './infinite-scroll'
 import { ElPageHeader } from './page-header'
 import { ElAvatar } from './avatar'
 import { ElDrawer } from './drawer'
-import { ElTabsDotted } from './tabs-dotted'
+import { ElLrContainer } from './lr-container'
+import { ElLoadingButton } from './loading-button'
+import { ElTabsDotted } from './tabs-dotted'
 
 export interface InstallationOptions {
   locale: any,
@@ -342,5 +344,13 @@ export class Avatar extends ElAvatar {}
 /** Drawer Component */
 export class Drawer extends ElDrawer {}
 
+/** LrContainer Component */
+export class LrContainer extends ElLrContainer {}
+
+/** LoadingButton Component */
+export class LoadingButton extends ElLoadingButton {}
+
 /** TabsDotted Component */
 export class TabsDotted extends ElTabsDotted {}
+
+

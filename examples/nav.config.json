@@ -216,10 +216,6 @@
               "title": "Tabs 标签页"
             },
             {
-              "path": "/tabs-dotted",
-              "title": "TabsDotted 点分tab标签"
-            },
-            {
               "path": "/breadcrumb",
               "title": "Breadcrumb 面包屑"
             },
@@ -291,6 +287,23 @@
             {
               "path": "/drawer",
               "title": "Drawer 抽屉"
+            }
+          ]
+        },
+        {
+          "groupName": "Expand",
+          "list": [
+            {
+              "path": "/lr-container",
+              "title": "LrContainer 左右布局容器"
+            },
+            {
+              "path": "/loading-button",
+              "title": "LoadingButton 加载按钮"
+            },
+            {
+              "path": "/tabs-dotted",
+              "title": "TabsDotted TabsDotted标签"
             }
           ]
         }
@@ -585,6 +598,19 @@
             {
               "path": "/drawer",
               "title": "Drawer"
+            }
+          ]
+        },
+        {
+          "groupName": "Expand",
+          "list": [
+            {
+              "path": "/lr-container",
+              "title": "LrContainer"
+            },
+            {
+              "path": "/loading-button",
+              "title": "LoadingButton"
             },
             {
               "path": "/tabs-dotted",
@@ -883,6 +909,19 @@
             {
               "path": "/drawer",
               "title": "Drawer"
+            }
+          ]
+        },
+        {
+          "groupName": "Expand",
+          "list": [
+            {
+              "path": "/lr-container",
+              "title": "LrContainer"
+            },
+            {
+              "path": "/loading-button",
+              "title": "LoadingButton"
             },
             {
               "path": "/tabs-dotted",
@@ -1185,6 +1224,14 @@
             {
               "path": "/tabs-dotted",
               "title": "TabsDotted"
+            },
+            {
+              "path": "/lr-container",
+              "title": "LrContainer"
+            },
+            {
+              "path": "/loading-button",
+              "title": "LoadingButton"
             }
           ]
         }
