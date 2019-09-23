@@ -3,7 +3,7 @@
       padding: 5px 0;
     }
     .config-label {
-      color: #2D303B;;
+      color: #606266;;
       font-size: 14px;
       padding-bottom: 8px;
       position: relative;

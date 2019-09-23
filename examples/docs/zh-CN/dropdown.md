@@ -25,7 +25,7 @@
 <style>
   .el-dropdown-link {
     cursor: pointer;
-    color: #5D81F9;
+    color: #409EFF;
   }
   .el-icon-arrow-down {
     font-size: 12px;
@@ -131,7 +131,7 @@
 <style>
   .el-dropdown-link {
     cursor: pointer;
-    color: #5D81F9;
+    color: #409EFF;
   }
   .el-icon-arrow-down {
     font-size: 12px;
@@ -168,7 +168,7 @@
 <style>
   .el-dropdown-link {
     cursor: pointer;
-    color: #5D81F9;
+    color: #409EFF;
   }
   .el-icon-arrow-down {
     font-size: 12px;
@@ -199,7 +199,7 @@
 <style>
   .el-dropdown-link {
     cursor: pointer;
-    color: #5D81F9;
+    color: #409EFF;
   }
   .el-icon-arrow-down {
     font-size: 12px;

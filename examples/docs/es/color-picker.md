@@ -19,7 +19,7 @@ ColorPicker es un selector de color que soporta varios formatos de color.
   export default {
     data() {
       return {
-        color1: '#5D81F9',
+        color1: '#409EFF',
         color2: null
       }
     }
@@ -97,7 +97,7 @@ ColorPicker es un selector de color que soporta varios formatos de color.
   export default {
     data() {
       return {
-        color: '#5D81F9'
+        color: '#409EFF'
       }
     }
   };

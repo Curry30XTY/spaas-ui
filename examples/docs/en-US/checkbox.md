@@ -266,7 +266,7 @@ Checkbox with button styles.
 | min     | minimum number of checkbox checked   | number    |       —        |     —    |
 | max     | maximum number of checkbox checked   | number    |       —        |     —    |
 |text-color | font color when button is active | string   | — | #ffffff   |
-|fill  | border and background color when button is active | string   | — | #5D81F9   |
+|fill  | border and background color when button is active | string   | — | #409EFF   |
 
 ### Checkbox-group Events
 | Event Name | Description | Parameters |

@@ -7,7 +7,7 @@
   h4 {
     font-size: 20px;
     margin: 40px 0 20px;
-    color: #6A6E7B
+    color: #909399
   }
   .demo-item {
     margin-top: 10px;

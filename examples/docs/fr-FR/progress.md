@@ -61,10 +61,10 @@ Vous pouvez utiliser l'attribut `color` pour définir la couleur de la barre de 
     data() {
       return {
         percentage: 20,
-        customColor: '#5D81F9',
+        customColor: '#409eff',
         customColors: [
-          {color: '#E24156', percentage: 20},
-          {color: '#F5A623', percentage: 40},
+          {color: '#f56c6c', percentage: 20},
+          {color: '#e6a23c', percentage: 40},
           {color: '#5cb87a', percentage: 60},
           {color: '#1989fa', percentage: 80},
           {color: '#6f7ad3', percentage: 100}
@@ -74,11 +74,11 @@ Vous pouvez utiliser l'attribut `color` pour définir la couleur de la barre de 
     methods: {
       customColorMethod(percentage) {
         if (percentage < 30) {
-          return '#6A6E7B';
+          return '#909399';
         } else if (percentage < 70) {
-          return '#F5A623';
+          return '#e6a23c';
         } else {
-          return '#02C5E2';
+          return '#67c23a';
         }
       },
       increase() {
@@ -132,8 +132,8 @@ Vous pouvez également spécifier l'attribut `type` de `dashboard` pour utiliser
       return {
         percentage: 10,
         colors: [
-          {color: '#E24156', percentage: 20},
-          {color: '#F5A623', percentage: 40},
+          {color: '#f56c6c', percentage: 20},
+          {color: '#e6a23c', percentage: 40},
           {color: '#5cb87a', percentage: 60},
           {color: '#1989fa', percentage: 80},
           {color: '#6f7ad3', percentage: 100}

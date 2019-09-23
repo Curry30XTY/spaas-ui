@@ -154,7 +154,7 @@
               ret = '#ff4949';
               break;
             case 'warning':
-              ret = '#F5A623';
+              ret = '#e6a23c';
               break;
             default:
               ret = '#20a0ff';

@@ -79,7 +79,5 @@
   "page-header": "./packages/page-header/index.js",
   "cascader-panel": "./packages/cascader-panel/index.js",
   "avatar": "./packages/avatar/index.js",
-  "drawer": "./packages/drawer/index.js",
-  "lr-container": "./packages/lr-container/index.js",
-  "loading-button": "./packages/loading-button/index.js"
+  "drawer": "./packages/drawer/index.js"
 }
