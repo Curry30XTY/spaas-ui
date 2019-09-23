@@ -1,5 +1,5 @@
 <template>
-  <el-tabs class="el-tabs-dotted" :tab-position="tabPosition">
+  <el-tabs :class="{'el-tabs-dotted' : $attrs.type === 'dotted'}" v-bind="$attrs" v-on='$listeners'>
     <slot></slot>
   </el-tabs>
 </template>
@@ -8,12 +8,6 @@
 import ElTabs from 'element-ui/packages/tabs';
 export default {
   name: 'ElTabsDotted',
-  props: {
-    tabPosition: {
-      type: String,
-      default: 'top'
-    }
-  },
   components: {
     ElTabs
   }
