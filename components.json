@@ -81,5 +81,6 @@
   "avatar": "./packages/avatar/index.js",
   "drawer": "./packages/drawer/index.js",
   "lr-container": "./packages/lr-container/index.js",
-  "loading-button": "./packages/loading-button/index.js"
+  "loading-button": "./packages/loading-button/index.js",
+  "checkbox-img-button": "./packages/checkbox-img-button/index.js"
 }

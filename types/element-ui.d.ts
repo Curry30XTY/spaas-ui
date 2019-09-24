@@ -81,6 +81,7 @@ import { ElAvatar } from './avatar'
 import { ElDrawer } from './drawer'
 import { ElLrContainer } from './lr-container'
 import { ElLoadingButton } from './loading-button'
+import { ElCheckboxImgButton } from './checkbox-img-button'
 
 export interface InstallationOptions {
   locale: any,
@@ -348,3 +349,6 @@ export class LrContainer extends ElLrContainer {}
 
 /** LoadingButton Component */
 export class LoadingButton extends ElLoadingButton {}
+
+/** CheckboxImgButton Component */
+export class CheckboxImgButton extends ElCheckboxImgButton {}
