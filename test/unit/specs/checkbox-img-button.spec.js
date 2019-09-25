@@ -1,5 +1,4 @@
-import { createTest, destroyVM } from '../util';
-import CheckboxImgButton from 'packages/checkbox-img-button';
+import { createVue, destroyVM } from '../util';
 
 describe('CheckboxImgButton', () => {
   let vm;
@@ -7,9 +6,44 @@ describe('CheckboxImgButton', () => {
     destroyVM(vm);
   });
 
-  it('create', () => {
-    vm = createTest(CheckboxImgButton, true);
-    expect(vm.$el).to.exist;
+  it('create', done => {
+    vm = createVue({
+      template: `
+        <el-checkbox-img-button v-model="checked"></el-checkbox-img-button>
+      `,
+      data() {
+        return {
+          checked: false
+        };
+      }
+    }, true);
+    let elm = vm.$el;
+    expect(elm.classList.contains('el-checkbox-img-button')).to.be.true;
+    elm.click();
+    vm.$nextTick(_ => {
+      expect(elm.querySelector('.is-checked')).to.be.ok;
+      done();
+    });
   });
+
+  it('vertical', () => {
+    vm = createVue({
+      template: `
+        <el-checkbox-img-button
+          v-model="checked"
+          vertical
+        >
+        </el-checkbox-img-button>
+      `,
+      data() {
+        return {
+          checked: false
+        };
+      }
+    }, true);
+    let elm = vm.$el;
+    expect(elm.classList.contains('is-vertical')).to.be.ok;
+  });
+
 });
 
