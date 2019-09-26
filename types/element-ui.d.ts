@@ -82,6 +82,8 @@ import { ElDrawer } from './drawer'
 import { ElLrContainer } from './lr-container'
 import { ElLoadingButton } from './loading-button'
 import { ElTabsDotted } from './tabs-dotted'
+import { ElPanel } from './panel'
+import { ElDataMapper } from './data-mapper'
 
 export interface InstallationOptions {
   locale: any,
@@ -353,4 +355,8 @@ export class LoadingButton extends ElLoadingButton {}
 /** TabsDotted Component */
 export class TabsDotted extends ElTabsDotted {}
 
+/** Panel Component */
+export class Panel extends ElPanel {}
 
+/** DataMapper Component */
+export class DataMapper extends ElDataMapper {}

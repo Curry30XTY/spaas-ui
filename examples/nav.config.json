@@ -287,6 +287,10 @@
             {
               "path": "/drawer",
               "title": "Drawer 抽屉"
+            },
+            {
+              "path": "/panel",
+              "title": "Panel 展示板"
             }
           ]
         },
@@ -304,6 +308,10 @@
             {
               "path": "/tabs-dotted",
               "title": "TabsDotted TabsDotted标签"
+            },
+            {
+              "path": "/data-mapper",
+              "title": "DataMapper 数据映射"
             }
           ]
         }
@@ -598,6 +606,10 @@
             {
               "path": "/drawer",
               "title": "Drawer"
+            },
+            {
+              "path": "/panel",
+              "title": "Panel"
             }
           ]
         },
@@ -615,6 +627,10 @@
             {
               "path": "/tabs-dotted",
               "title": "TabsDotted"
+            },
+            {
+              "path": "/data-mapper",
+              "title": "DataMapper"
             }
           ]
         }
@@ -909,6 +925,10 @@
             {
               "path": "/drawer",
               "title": "Drawer"
+            },
+            {
+              "path": "/panel",
+              "title": "Panel"
             }
           ]
         },
@@ -925,7 +945,10 @@
             },
             {
               "path": "/tabs-dotted",
-              "title": "TabsDotted"
+              "title": "TabsDotted"},
+            {
+              "path": "/data-mapper",
+              "title": "DataMapper"
             }
           ]
         }
@@ -1226,12 +1249,20 @@
               "title": "TabsDotted"
             },
             {
+              "path": "/panel",
+              "title": "Panel"
+            },
+            {
               "path": "/lr-container",
               "title": "LrContainer"
             },
             {
               "path": "/loading-button",
               "title": "LoadingButton"
+            },
+            {
+              "path": "/data-mapper",
+              "title": "DataMapper"
             }
           ]
         }
