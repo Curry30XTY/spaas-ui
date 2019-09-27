@@ -81,7 +81,15 @@ import { ElAvatar } from './avatar'
 import { ElDrawer } from './drawer'
 import { ElLrContainer } from './lr-container'
 import { ElLoadingButton } from './loading-button'
-import { ElCheckboxImgButton } from './checkbox-img-button'
+import { ElTabsDotted } from './tabs-dotted'
+import { ElPanel } from './panel'
+import { ElDataMapper } from './data-mapper'
+import { ElOtherColor } from './other-color'
+import { ElIconCheckbox } from './icon-checkbox'
+import { ElStatusSteps } from './status-steps'
+import { ElInputIcon } from './input-icon'
+import { ElMessageBoxCenter } from './message-box-center'
+import { ElCheckboxImgButton } from './checkbox-img-button'
 
 export interface InstallationOptions {
   locale: any,
@@ -349,6 +357,29 @@ export class LrContainer extends ElLrContainer {}
 
 /** LoadingButton Component */
 export class LoadingButton extends ElLoadingButton {}
+
+/** TabsDotted Component */
+export class TabsDotted extends ElTabsDotted {}
+
+/** Panel Component */
+export class Panel extends ElPanel {}
+
+/** DataMapper Component */
+export class DataMapper extends ElDataMapper {}
+/** OtherColor Component */
+export class OtherColor extends ElOtherColor {}
+
+/** IconCheckbox Component */
+export class IconCheckbox extends ElIconCheckbox {}
+
+/** StatusSteps Component */
+export class StatusSteps extends ElStatusSteps {}
+
+/** InputIcon Component */
+export class InputIcon extends ElInputIcon {}
+
+/** MessageBoxCenter Component */
+export const MessageBoxCenter: ElMessageBoxCenter
 
 /** CheckboxImgButton Component */
 export class CheckboxImgButton extends ElCheckboxImgButton {}
