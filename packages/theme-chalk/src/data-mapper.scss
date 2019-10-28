@@ -15,9 +15,39 @@
             color: #818389;
         }
     }
+    &-col-vertical {
+        margin-bottom: 14px;
+        &-title {
+            margin-right: 5px;
+            color: #2d303b;
+        }
+        &-content {
+            flex: 1;
+            padding-right: 5px;
+            color: #818389;
+        }
+    }
+    &-col-top {
+        flex-direction: column;
+    }
+    &-col-title- {
+        &left {
+            text-align: left;
+        }
+        &right {
+            text-align: right;
+        }
+        &top {
+            margin-bottom: 10px;
+        }
+    }
     [class*='el-col-'] {
         float: none;
         display: inline-flex;
+    }
+    .el-data-mapper-col-vertical {
+        display: flex;
+        width: 100%;
     }
     .text-ellipsis-container {
         overflow: hidden;
