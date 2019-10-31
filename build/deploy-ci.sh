@@ -23,15 +23,16 @@ if [ "$TRAVIS_TAG" ]; then
   # cd ../..
 
   # build theme-chalk 不需要进行theme处理
-  # cd temp_web
-  # git clone https://$ROT_TOKEN@github.com/ElementUI/theme-chalk.git && cd theme-chalk
-  # rm -rf *
-  # cp -rf ../../packages/theme-chalk/** .
-  # git add -A .
-  # git commit -m "[build] $TRAVIS_TAG"
-  # git tag $TRAVIS_TAG
-  # git push origin master --tags
-  # cd ../..
+  npm run dist
+  cd temp_web
+  git clone https://$ROT_TOKEN@github.com/spaasteam/theme-chalk.git && cd theme-chalk
+  rm -rf *
+  cp -rf ../../packages/theme-chalk/** .
+  git add -A .
+  git commit -m "[build] $TRAVIS_TAG"
+  git tag $TRAVIS_TAG
+  git push origin master --tags
+  cd ../..
 
   # build site
   npm run deploy:build
