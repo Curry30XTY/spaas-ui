@@ -28,6 +28,7 @@ if [ "$TRAVIS_TAG" ]; then
   git clone https://$ROT_TOKEN@github.com/spaasteam/theme-chalk.git && cd theme-chalk
   rm -rf *
   cp -rf ../../packages/theme-chalk/** .
+  mv _gitignore .gitignore
   git add -A .
   git commit -m "[build] $TRAVIS_TAG"
   git tag $TRAVIS_TAG
