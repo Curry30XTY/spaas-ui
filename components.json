@@ -90,5 +90,6 @@
   "loading-button": "./packages/loading-button/index.js",
   "checkbox-img-button": "./packages/checkbox-img-button/index.js",
   "data-mapper": "./packages/data-mapper/index.js",
-  "message-box-center": "./packages/message-box-center/index.js"
+  "message-box-center": "./packages/message-box-center/index.js",
+  "skeleton": "./packages/skeleton/index.js"
 }

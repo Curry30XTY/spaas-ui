@@ -91,6 +91,7 @@ import { ElMessageBoxCenter } from './message-box-center'
 import { ElCheckboxImgButton } from './checkbox-img-button'
 
 import { ElRadioImgButton } from './radio-img-button'
+import { ElSkeleton } from './skeleton'
 
 export interface InstallationOptions {
   locale: any,
@@ -383,3 +384,6 @@ export const MessageBoxCenter: ElMessageBoxCenter
 
 /** CheckboxImgButton Component */
 export class CheckboxImgButton extends ElCheckboxImgButton {}
+
+/** Skeleton Component */
+export class Skeleton extends ElSkeleton {}
