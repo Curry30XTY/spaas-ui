@@ -93,6 +93,7 @@ import CheckboxImgButton from '../packages/checkbox-img-button/index.js';
 import DataMapper from '../packages/data-mapper/index.js';
 import MessageBoxCenter from '../packages/message-box-center/index.js';
 import Skeleton from '../packages/skeleton/index.js';
+import Empty from '../packages/empty/index.js';
 import locale from 'element-ui/src/locale';
 import CollapseTransition from 'element-ui/src/transitions/collapse-transition';
 
@@ -184,6 +185,7 @@ const components = [
   CheckboxImgButton,
   DataMapper,
   Skeleton,
+  Empty,
   CollapseTransition
 ];
 
@@ -317,5 +319,6 @@ export default {
   CheckboxImgButton,
   DataMapper,
   MessageBoxCenter,
-  Skeleton
+  Skeleton,
+  Empty
 };

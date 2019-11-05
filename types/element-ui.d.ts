@@ -92,6 +92,7 @@ import { ElCheckboxImgButton } from './checkbox-img-button'
 
 import { ElRadioImgButton } from './radio-img-button'
 import { ElSkeleton } from './skeleton'
+import { ElEmpty } from './empty'
 
 export interface InstallationOptions {
   locale: any,
@@ -387,3 +388,6 @@ export class CheckboxImgButton extends ElCheckboxImgButton {}
 
 /** Skeleton Component */
 export class Skeleton extends ElSkeleton {}
+
+/** Empty Component */
+export class Empty extends ElEmpty {}
