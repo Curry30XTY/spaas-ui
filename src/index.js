@@ -94,6 +94,7 @@ import DataMapper from '../packages/data-mapper/index.js';
 import MessageBoxCenter from '../packages/message-box-center/index.js';
 import Skeleton from '../packages/skeleton/index.js';
 import Empty from '../packages/empty/index.js';
+import Affix from '../packages/affix/index.js';
 import locale from 'element-ui/src/locale';
 import CollapseTransition from 'element-ui/src/transitions/collapse-transition';
 
@@ -186,6 +187,7 @@ const components = [
   DataMapper,
   Skeleton,
   Empty,
+  Affix,
   CollapseTransition
 ];
 
@@ -320,5 +322,6 @@ export default {
   DataMapper,
   MessageBoxCenter,
   Skeleton,
-  Empty
+  Empty,
+  Affix
 };
