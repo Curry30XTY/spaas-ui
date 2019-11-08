@@ -212,6 +212,7 @@ const install = function(Vue, opts = {}) {
   Vue.prototype.$alert = MessageBox.alert;
   Vue.prototype.$alertCenter = MessageBoxCenter.alert;
   Vue.prototype.$confirm = MessageBox.confirm;
+  Vue.prototype.$confirmCenter = MessageBoxCenter.confirm;
   Vue.prototype.$prompt = MessageBox.prompt;
   Vue.prototype.$notify = Notification;
   Vue.prototype.$message = Message;

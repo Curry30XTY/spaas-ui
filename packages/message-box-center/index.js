@@ -1,2 +1,2 @@
-import MessageBoxCenter from './src/main.js';
+import MessageBoxCenter from './src/index.js';
 export default MessageBoxCenter;
