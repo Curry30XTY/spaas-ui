@@ -6,6 +6,7 @@
 
 @include b(button) {
   display: inline-block;
+  min-width: 70px;
   line-height: 1;
   white-space: nowrap;
   cursor: pointer;
@@ -118,6 +119,7 @@
     padding: 12px 23px;
   }
   @include when(circle) {
+    min-width: auto;
     border-radius: 50%;
     padding: $--button-padding-vertical;
   }
@@ -144,6 +146,7 @@
   }
   @include m(small) {
     @include button-size($--button-small-padding-vertical, $--button-small-padding-horizontal, $--button-small-font-size, $--button-small-border-radius);
+    // @include button-size(11px, 25px, 14px, $--button-small-border-radius);
     @include when(circle) {
       padding: $--button-small-padding-vertical;
     }
@@ -160,6 +163,7 @@
     background: transparent;
     padding-left: 0;
     padding-right: 0;
+    min-width: auto;
 
     &:hover,
     &:focus {
